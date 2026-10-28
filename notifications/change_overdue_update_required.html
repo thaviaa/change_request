@@ -1,0 +1,16 @@
+<!--
+  Notification [sysevent_email_action]
+  Name:          Change Overdue - Update Required
+  Table:         Change Request [change_request]
+  When to send:  Event is fired -> change.overdue.notify
+  Who will receive:
+      Event parm 1 contains recipient: true
+      Groups: ITS Change Management
+  Subject:       Change Request Status – Update Required
+
+  Paste the <p> lines below into Message HTML using the editor's
+  Source code (<>) view - do NOT include this comment block.
+-->
+<p>Your approved Change ${URI_REF} is overdue based on your scheduled start or end date/time.</p>
+<p>Please open your Change (${URI_REF}) and make appropriate updates to adjust the status.</p>
+<p>If you need assistance with your Change record, please reach out to a member of the Incident, Problem, and Change Management team as soon as possible.</p>
