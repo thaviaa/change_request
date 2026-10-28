@@ -3,7 +3,6 @@
  * Client callable: false
  * Accessible from: This application scope only
  */
- * ===================================================================== */
 var ChangeOverdueNotifier = Class.create();
 ChangeOverdueNotifier.prototype = {
 
